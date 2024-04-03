@@ -1,0 +1,15 @@
+version: '3'
+services:
+  vci:
+    image: dockworker
+    stdin_open: true
+    tty: true
+    volumes:
+      # - C:/Users/Maksim/tv-21-app/TryYOLO/input:/app/files
+      - C:/Users/Maxim/tv-21-app/my-tv21-app/input:/app/files
+    # runtime: nvidia
+    # devices:
+    #   - /dev/nvidia0:/dev/nvidia0
+    #   - /dev/nvidiactl:/dev/nvidiactl
+    #   - /dev/nvidia-modeset:/dev/nvidia-modeset
+    #   - /dev/nvidia-uvm:/dev/nvidia-uvm
