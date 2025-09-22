@@ -1,1 +1,1 @@
-![](https://github.com/Nostrik/Video_Inspector/VideoInspect10.gif)
+![Demo](VideoInspect10.gif)
